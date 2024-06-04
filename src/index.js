@@ -7,6 +7,7 @@ export default (editor, opts = {}) => {
     ...{
       i18n: {},
       // default options
+      blocks: false,
       tailwindPlayCdn: 'https://cdn.tailwindcss.com',
       plugins: [],
       config: {},
@@ -15,9 +16,10 @@ export default (editor, opts = {}) => {
       openCategory: 'Blog',
     }, ...opts
   };
-
-  // Add blocks
-  loadBlocks(editor, options);
+  if (options.blocks) {
+    // Add blocks
+    loadBlocks(editor, options);
+  }
   // Add commands
   loadCommands(editor, options);
   // Load i18n files
