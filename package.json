@@ -1,15 +1,15 @@
 {
     "name": "grapesjs-tailwind",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "Grapesjs Tailwind",
     "main": "dist/grapesjs-tailwind.min.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Ju99ernaut/grapesjs-tailwind.git"
+        "url": "https://github.com/roomNdev/grapesjs-tailwind-without-blocks"
     },
     "scripts": {
         "start": "set NODE_OPTIONS=--openssl-legacy-provider && grapesjs-cli serve ",
-        "build": "grapesjs-cli build",
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider && grapesjs-cli build",
         "bump": "npm version patch -m 'Bump v%s'"
     },
     "keywords": [
