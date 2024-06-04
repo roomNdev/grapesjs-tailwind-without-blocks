@@ -2,6 +2,12 @@
 !!!THIS IS JUST A FORK OF THE ORIGINAL PROJECT FROM [Ju99ernaut](https://github.com/Ju99ernaut): [grapesjs-tailwind](https://github.com/Ju99ernaut/grapesjs-tailwind)
 [DEMO](https://codepen.io/ju99ernaut/pen/BaKGadb)
 
+Use
+``` 
+npm install grapesjs-tailwind-optionals-blocks
+```
+ to install
+
 > Requires [`grapesjs-plugin-forms`](https://github.com/artf/grapesjs-plugin-forms)
 
 Tailwind intergration which includes the complete set of blocks from [Tailblocks.cc](https://tailblocks.cc/), bases on [Destack](https://github.com/LiveDuo/destack).

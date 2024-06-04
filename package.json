@@ -1,5 +1,5 @@
 {
-    "name": "grapesjs-tailwind",
+    "name": "grapesjs-tailwind-optionals-blocks",
     "version": "1.0.12",
     "description": "Grapesjs Tailwind",
     "main": "dist/grapesjs-tailwind.min.js",
