@@ -11,7 +11,6 @@ export default (editor, opts = {}) => {
       tailwindPlayCdn: 'https://cdn.tailwindcss.com',
       plugins: [],
       config: {},
-      cover: `.object-cover { filter: sepia(1) hue-rotate(190deg) opacity(.46) grayscale(.7) !important; }`,
       changeThemeText: 'Change Theme',
       openCategory: 'Blog',
     }, ...opts
@@ -43,7 +42,6 @@ export default (editor, opts = {}) => {
     script.onload = init;
 
     const cssStyle = document.createElement('style');
-    cssStyle.innerHTML = cover;
 
     // checks iframe is ready before loading Tailwind CSS - issue with firefox
     const f = setInterval(() => {
