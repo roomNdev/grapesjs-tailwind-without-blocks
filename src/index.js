@@ -32,7 +32,7 @@ export default (editor, opts = {}) => {
 
     if (!iframe) return;
 
-    const { tailwindPlayCdn, plugins, config, cover } = options;
+    const { tailwindPlayCdn, plugins, config } = options;
     const init = () => {
       iframe.contentWindow.tailwind.config = config;
     }
